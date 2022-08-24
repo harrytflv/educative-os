@@ -17,3 +17,12 @@ make p2
 make p3
 ./p3
 ```
+
+### Why? Motivating the API
+```
+make p4
+./p3
+```
+
+### Exercise
+Number 8 skipped

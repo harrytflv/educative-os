@@ -7,3 +7,17 @@ p2:
 p3:
 	gcc -o p3 p3.c -Wall
 
+p4: p4.c
+	gcc -o p4 p4.c -Wall
+
+e1: e1.c
+	gcc -o e1 e1.c -Wall
+
+e2: e2.c
+	gcc -o e2 e2.c -Wall
+
+e5: e5.c
+	gcc -o e5 e5.c -Wall
+
+e7: e7.c
+	gcc -o e7 e7.c -Wall
