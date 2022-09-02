@@ -1,2 +1,2 @@
-memory-user: memory-user.c
-	gcc memory-user.c -o memory-user
+memory-user:
+	gcc memory-user.c -o memory-user.to

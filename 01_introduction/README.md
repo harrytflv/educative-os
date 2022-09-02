@@ -3,27 +3,27 @@
 ### Virtualizing the CPU
 ```
 make cpu
-./cpu A
-./cpu A & ./cpu B & ./cpu C & ./cpu D &
+./cpu.to A
+./cpu.to A & ./cpu.to B & ./cpu.to C & ./cpu.to D &
 ```
 
 ### Virtualizing Memory
 ```
 make mem
-./mem 0
-./mem 0 & ./mem 0 &
+./mem.to 0
+./mem.to 0 & ./mem.to 0 &
 ```
 
 ### Concurrency
 ```
 make thread
-./thread 1000
-./thread 100000
+./thread.to 1000
+./thread.to 100000
 ```
 
 ### Persistence
 ```
 make io
-./io
+./io.to
 cat /tmp/file
 ```

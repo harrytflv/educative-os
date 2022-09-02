@@ -1,2 +1,2 @@
-e: e.c
-	gcc -o e e.c -Wall
+e:
+	gcc -o e.to e.c -Wall

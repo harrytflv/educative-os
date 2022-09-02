@@ -1,12 +1,11 @@
 cpu:
-	gcc -o cpu cpu.c -Wall
+	gcc -o cpu.to cpu.c -Wall
 
 mem:
-	gcc -o mem mem.c -Wall
+	gcc -o mem.to mem.c -Wall
 
 thread:
-	gcc -o thread threads.c -Wall -pthread
+	gcc -o thread.to threads.c -Wall -pthread
 
 io:
-	gcc -o io io.c -Wall
-
+	gcc -o io.to io.c -Wall
